@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# ARS-GPT specific ignores
+# =========================
+
+# API keys / secrets
+models.json
+
+# User data
+*.json
+
+# Crash handler
+crash_logs/
+*.dmp
+
+# Assets generated at runtime
+assets/cache/
+assets/temp/
+
+# Local experiments
+scratch.py
+test_local.py
+
+# OS junk
+Thumbs.db
+.DS_Store
